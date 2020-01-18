@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Save the Date (email template)</title>
+
+<style>
+/* CSS styling for specific elements via ID and Class */
+
+table#t01 {
+    margin: auto;
+    position: absolute;
+    float: left;
+    height: auto;
+    width: 480px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    mso-table-lspace: 0pt;
+    mso-table-rspace: 8pt;
+    border: 0px solid black;
+}
+
+tr#tr01 {
+    background-color: #ffffff;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-right: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    font-family: franklin gothic book, arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #494949;
+    width: 100%;
+    height: auto;
+}
+
+td#td01 {
+    background-color: #ffffff;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-right: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    font-family: franklin gothic book, arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #494949;
+    width: 50%;
+    border: 0px;
+}
+
+td#td02 {
+    background-color: #ffffff;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-right: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    font-family: franklin gothic book, arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #494949;
+    width: 50%;
+    border: 0px;
+}
+
+
+p#P01 {
+    color: #494949;
+    font-family: franklin gothic book, arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    orphans: 2;
+    text-align: start;
+    text-indent: 0px;
+    text-transform: none;
+    white-space: normal;
+    widows: 2;
+    word-spacing: 0px;
+    -webkit-text-stroke-width: 0px;
+}
+
+span#SP01 {
+    font-family: franklin gothic book, arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    orphans: 2;
+    text-align: start;
+    text-indent: 0px;
+    text-transform: none;
+    white-space: normal;
+    widows: 2;
+    word-spacing: 0px;
+    -webkit-text-stroke-width: 0px;
+    float: none;
+    color: #004a84;
+    display: inline;
+    text-decoration: important;
+}
+
+a#A01 {
+    font-family: franklin gothic book, arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    orphans: 2;
+    text-align: start;
+    text-indent: 0px;
+    text-transform: none;
+    white-space: normal;
+    widows: 2;
+    word-spacing: 0px;
+    -webkit-text-stroke-width: 0px;
+    text-decoration: none;
+    color: #59a7e9;
+}    
+
+</style>
+</head>
+
+<body>
+
+<p style="text-align: left;">Please contact me if you have any questions</p>
+
+
+<table id="t01">
+    <tr id="tr01">
+
+        <td id="td01">
+            <img src="http://go.nita.org/rs/722-OVM-342/images/charlie headshot.jpg" alt="charlie headshot.jpg" height="106" width="180">
+        </td>
+        
+        <td id="td01">
+
+            <span id="SP01">{{my.DCDP-salesperson}}</span>
+                <br>
+            <span id="SP01">{{my.DCDP-salesRole}}</span>
+                <br>
+                <br>
+            <span id="SP01">National Institute for Trial Advocacy</span>
+                <br>
+            <span id="SP01">Direct: {{my.DCDP-salesNumber}}</span>
+                <br>
+            <span id="SP01"></span>E-Mail:&nbsp;</span>
+            <a id="A01" href="mailto:{{my.DCDP-salesEmail}}" target="_blank" >{{my.DCDP-salesEmail}}</a>
+        
+        </td>
+    </tr>
+    <tr id="tr01">
+</table>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<table id="t01">
+    <tr id="tr01">
+
+        <td id="td02">
+            <img src="http://go.nita.org/rs/722-OVM-342/images/icon bigstock computer icon black and white transparent.png" alt="icon bigstock computer icon black and white transparent.png" height="48" width="48">
+                
+            <p id="p01">Can't attend an in-person course?
+                <br>NITA offers online deposition skills courses throughout the year.
+                <br> Take a look at some online courses that NITA has to offer:</p>
+            
+            <a style="color: #59a7e9;" href="https://www.nita.org/program-location/online?id=27&amp;utm_source=SaveTheDate&amp;utm_medium=Email&amp;utm_campaign=DepositionPrograms" target="_blank">{{my.depo-prgType}}</a>
+        </td>
+    
+    </tr>
+</table>
+
+    
+
+</body>
+</html>
